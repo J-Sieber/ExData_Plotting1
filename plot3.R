@@ -19,6 +19,6 @@ plot(NewTime,y=as.numeric(myData$Sub_metering_1),type="l",ylab="Energy sub meter
 lines(NewTime, y = as.numeric(myData$Sub_metering_2), col = "red")
 lines(NewTime, y = as.numeric(myData$Sub_metering_3), col = "blue")
 Leg<-c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
-legend("topright",cex=0.7, lty = 1, col = c("black", "red", "blue"), legend = Leg)
+legend("topright",cex=0.6, lty = 1, col = c("black", "red", "blue"), legend = Leg)
 dev.copy(png,'plot3.png')
 dev.off()
