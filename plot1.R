@@ -8,7 +8,7 @@ View(myData)
 #Find the dates needed
 good<-myData$Date=="2/2/2007" | myData$Date=="1/2/2007"
 
-#Get data with good dates
+#Get data with good dates 
 myData<-myData[good,]
 row.names(myData)<-NULL
 
